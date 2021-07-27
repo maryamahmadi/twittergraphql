@@ -25,9 +25,9 @@ const typeDefs = gql`
     posts: [Post]
   }
   input UserInput {
-    name: String!
+    name: String
     email: String
-    role: Role!
+    role: Role
   }
   type Post {
     id: ID!
